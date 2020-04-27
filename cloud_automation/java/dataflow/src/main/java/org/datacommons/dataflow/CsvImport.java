@@ -22,7 +22,7 @@ import org.apache.hadoop.hbase.util.Bytes;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import java.util.*
+import java.util.*;
 
 public class CsvImport {
 
@@ -46,7 +46,7 @@ public class CsvImport {
           Mutation.SetCell setCell = null;
           headerBytes[i] = Bytes.toBytes(headers[i]);
           setCell =  Mutation.SetCell.newBuilder()
-                          .setFamilyName(FAMILY)
+                          .setFamilyName("csv")
                           .setColumnQualifier(ByteString.copyFrom( headerBytes[i]))
                           .setValue(ByteString.copyFrom(Bytes.toBytes(values[i+1]))) // since values[0] is the key.
                           .build();
