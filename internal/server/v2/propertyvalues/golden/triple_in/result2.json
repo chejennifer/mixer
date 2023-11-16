@@ -4013,6 +4013,38 @@
         "measurementDenominator": {
           "nodes": [
             {
+              "name": "Count of Medical Condition Incident: 45 - 59 Years, Injury, Rural (Per Capita)",
+              "types": [
+                "StatisticalVariable"
+              ],
+              "dcid": "Count_MedicalConditionIncident_45To59Years_ConditionInjury_Rural_AsAFractionOf_Count_Person",
+              "provenanceId": "dc/base/HumanReadableStatVars"
+            },
+            {
+              "name": "Count of Medical Condition Incident: 45 - 59 Years, Injury, Urban (Per Capita)",
+              "types": [
+                "StatisticalVariable"
+              ],
+              "dcid": "Count_MedicalConditionIncident_45To59Years_ConditionInjury_Urban_AsAFractionOf_Count_Person",
+              "provenanceId": "dc/base/HumanReadableStatVars"
+            },
+            {
+              "name": "Count of Medical Condition Incident: 45 - 59 Years, Musculo Skeletal Condition (Per Capita)",
+              "types": [
+                "StatisticalVariable"
+              ],
+              "dcid": "Count_MedicalConditionIncident_45To59Years_ConditionMusculoSkeletalCondition_AsAFractionOf_Count_Person",
+              "provenanceId": "dc/base/HumanReadableStatVars"
+            },
+            {
+              "name": "Count of Medical Condition Incident: 45 - 59 Years, Musculo Skeletal Condition, Rural (Per Capita)",
+              "types": [
+                "StatisticalVariable"
+              ],
+              "dcid": "Count_MedicalConditionIncident_45To59Years_ConditionMusculoSkeletalCondition_Rural_AsAFractionOf_Count_Person",
+              "provenanceId": "dc/base/HumanReadableStatVars"
+            },
+            {
               "name": "Count of Medical Condition Incident: 45 - 59 Years, Musculo Skeletal Condition, Urban (Per Capita)",
               "types": [
                 "StatisticalVariable"
@@ -7979,38 +8011,6 @@
               ],
               "dcid": "Count_MedicalConditionIncident_60To69Years_Female_ConditionGastroIntestinalCondition_Rural_AsAFractionOf_Count_Person",
               "provenanceId": "dc/base/HumanReadableStatVars"
-            },
-            {
-              "name": "Count of Medical Condition Incident: 60 - 69 Years, Female, Gastro Intestinal Condition, Urban (Per Capita)",
-              "types": [
-                "StatisticalVariable"
-              ],
-              "dcid": "Count_MedicalConditionIncident_60To69Years_Female_ConditionGastroIntestinalCondition_Urban_AsAFractionOf_Count_Person",
-              "provenanceId": "dc/base/HumanReadableStatVars"
-            },
-            {
-              "name": "Count of Medical Condition Incident: 60 - 69 Years, Female, Genito Urinary Condition (Per Capita)",
-              "types": [
-                "StatisticalVariable"
-              ],
-              "dcid": "Count_MedicalConditionIncident_60To69Years_Female_ConditionGenitoUrinaryCondition_AsAFractionOf_Count_Person",
-              "provenanceId": "dc/base/HumanReadableStatVars"
-            },
-            {
-              "name": "Count of Medical Condition Incident: 60 - 69 Years, Female, Genito Urinary Condition, Rural (Per Capita)",
-              "types": [
-                "StatisticalVariable"
-              ],
-              "dcid": "Count_MedicalConditionIncident_60To69Years_Female_ConditionGenitoUrinaryCondition_Rural_AsAFractionOf_Count_Person",
-              "provenanceId": "dc/base/HumanReadableStatVars"
-            },
-            {
-              "name": "Count of Medical Condition Incident: 60 - 69 Years, Female, Genito Urinary Condition, Urban (Per Capita)",
-              "types": [
-                "StatisticalVariable"
-              ],
-              "dcid": "Count_MedicalConditionIncident_60To69Years_Female_ConditionGenitoUrinaryCondition_Urban_AsAFractionOf_Count_Person",
-              "provenanceId": "dc/base/HumanReadableStatVars"
             }
           ]
         }
@@ -8019,5 +8019,5 @@
     "Country": {},
     "dummy": {}
   },
-  "nextToken": "H4sIAAAAAAAA/2zOQQvCMAwFYJd1WxY8jAj+IPWuMPAkSB1RCms7uu6wfy+LVy8fIe/wHj2ITy6O8eMGO/aTDM5LoDqvk1zf/zLeMWDBgMCAJQMaBqwYsGaDTbd9kQFbBiRaaX+OS8jPm6Q5Bjp6sfOSxEvIFwnRu2BzTHTos81uzlvR3SZnX6MwdMAGC/V3l6pRK7VWGxXVVifQFwAA//8BAAD//2XOWCzZAAAA"
+  "nextToken": "H4sIAAAAAAAA/2yOwYrCMBCGt9O0mQ57CLOw7POs3hUKngSJZZRAk5Q0PXjylX0EaXr18vEx32F+OhP/uzjGuxvs2E8yOC+B2vyY5HD71PiLASsGBAasGVAxYMOALSvUZr0iA3YMSPSk711cQr4cJc0x0K8XOy9JvIS8lxC9CzbHRD99ttnNeX10ssnZ6ygMBlhhVbh5XagKGwOssTXV36tmjXoThVhqV4bQGwAA//8BAAD//xnU0MzfAAAA"
 }

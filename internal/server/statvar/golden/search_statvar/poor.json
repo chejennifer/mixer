@@ -1853,6 +1853,24 @@
       ]
     },
     {
+      "dcid": "dc/g/Person_PovertyStatus-BelowPovertyLevelInThePast12Months",
+      "name": "Person With Poverty Status = Below Poverty Level in The Past 12 Months",
+      "statVars": [
+        {
+          "name": "Index Score: Below Poverty Level in The Past 12 Months",
+          "dcid": "IndexScore_Person_BelowPovertyLevelInThePast12Months"
+        },
+        {
+          "name": "Population Below Poverty Level Status in Past Year",
+          "dcid": "Count_Person_BelowPovertyLevelInThePast12Months"
+        },
+        {
+          "name": "Population: Below Poverty Level in The Past 12 Months (Per Capita)",
+          "dcid": "Count_Person_BelowPovertyLevelInThePast12Months_AsFractionOf_Count_Person"
+        }
+      ]
+    },
+    {
       "dcid": "dc/g/Household_BenefitsStatus-WithFoodStampsInThePast12Months_RecentWorkStatus",
       "name": "Household With Benefits Status = With Food Stamps in The Past 12 Months, Recent Work Status",
       "statVars": [
@@ -2147,20 +2165,6 @@
         {
           "name": "Median Income for Households With Food Stamps in the Past Year",
           "dcid": "Median_Income_Household_WithFoodStampsInThePast12Months"
-        }
-      ]
-    },
-    {
-      "dcid": "dc/g/Person_PovertyStatus-BelowPovertyLevelInThePast12Months",
-      "name": "Person With Poverty Status = Below Poverty Level in The Past 12 Months",
-      "statVars": [
-        {
-          "name": "Population Below Poverty Level Status in Past Year",
-          "dcid": "Count_Person_BelowPovertyLevelInThePast12Months"
-        },
-        {
-          "name": "Population: Below Poverty Level in The Past 12 Months (Per Capita)",
-          "dcid": "Count_Person_BelowPovertyLevelInThePast12Months_AsFractionOf_Count_Person"
         }
       ]
     },
